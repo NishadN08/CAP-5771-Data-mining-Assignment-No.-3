@@ -295,10 +295,10 @@ def question8():
     answers["(b) Row 2 explain"] = "The cluster is cohesive because the diagonal entry is more distinct.  While the off-diagonal indicating distances with A is less precise, two other clusters (A and C) are closer to it than it is, and it is the furthest from one other cluster (D). Two thirds of the off-diagonal entries have the same color."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = "The explanation is simimilar to row 2."
+    answers["(b) Row 3 explain"] = "It is dense due to its black color, however it is not closer to the first cluster."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = "The Explanation is similar to row 1 in inverted order."
+    answers["(b) Row 4 explain"] = "It's not dense and is far from the first clusters."
 
     return answers
 
@@ -352,10 +352,10 @@ def question10():
     answers["(b) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "If the number of clusters is set to 4, K-means can be applied to (b), but it would also include the lower density points. K-means is ineffective for (a)."
+    answers["(b) explain"] = "If the number of clusters is set to 4, K-means can be applied to (b), but it would also include the lower density points. K-means is ineffective for (a).S"
 
     # type: string
-    answers["(c)"] = "Consider reciprocal of density as the next density and run DBSCAN on it."
+    answers["(c)"] = "Take the reciprocal of the density as the new density and apply DBSCAN."
 
 
     return answers
